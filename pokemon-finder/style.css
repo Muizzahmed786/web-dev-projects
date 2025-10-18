@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-sizing;
+}
+
+body{
+    background-image: radial-gradient(circle, #99f9f9, #96fce6, #a3fdcd, #bafbb2, #d9f797);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section{
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading{
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4b4b4b;
+    text-shadow: 0px 2px 10px rgb(40, 40, 40);
+}
+
+#pokemonName{
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    font-size: 1.5rem;
+    margin-right: 20px;
+    font-family: verdana;
+    color: #4b4b4b;
+}
+
+#pokemonName:hover{
+    border: 2px solid cyan;
+    transition: ease-in 0.2s;
+}
+
+#pokemonSprite{
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    background-color: aliceblue;
+    box-shadow: 2px 6px 12px rgb(52, 52, 52);
+    transition: transform 0.2s ease-in;
+}
+
+#pokemonSprite:hover{
+    transform: scale(1.05);
+}
+
+button{
+    font-size: 1.5rem;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-family: verdana;
+}
+
+button:hover{
+    background-color: #4b4b4b;
+    color:antiquewhite;
+    transition: ease-in 0.3s;
+    border: 2px solid cyan;
+}

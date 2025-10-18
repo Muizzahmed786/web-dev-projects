@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color:antiquewhite;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#getPassword {
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+
+#getPassword:hover {
+    background-color:chocolate;
+    transition: background-color 0.25s ease;
+}
